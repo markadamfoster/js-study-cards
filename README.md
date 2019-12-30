@@ -1,10 +1,10 @@
 # JS Study Cards
 
-This is my ever-growing collection of JavaScript-related study cards.
+This is my ever-growing collection of JavaScript related study cards.
 
-Currently I use this with the spaced repetition flashcards program [Mochi](http://mochi.cards/).
+I use these with the spaced repetition flashcards program [Mochi](http://mochi.cards/).
 
-## Selected Resources
+## A Few of the Resources
 
 I try to create a card whenever I run into a problem or concept I want to make sure I fully cement in my mind, so it's impossible to list all the resources I've used in creating these. That said, there are a few resouces that were especially utilized:
 
