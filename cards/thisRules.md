@@ -15,3 +15,5 @@ The exact value of `this` is determined by these 5 rules:
 4. If a function is invoked as a free function invocation (none of the conditions above), `this` is the global object (In a browser this is `window`). _Note: Technically this is the same a rule 3a. These functions are methods on the global object._
 
 5. If multiple rules apply, the rule highest on this list is used.
+
+6. If using an arrow function, all these rules are ignored and it receives the `this` value of its surrounding scope. (i.e. what's the value of `this` on the line above the arrow function?)
