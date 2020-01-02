@@ -1,4 +1,4 @@
-This code prints `undefined`. What are three ways we could "fix" that and instead have it print "Print value"?
+This code prints `undefined`. What are three ways we could fix this and instead have it print out "Print value"?
 
 ```js
 const obj = {
@@ -11,7 +11,7 @@ const obj = {
 };
 
 const print = obj.generatePrintFn();
-print(); // ?
+print(); // undefined
 ```
 
 ---
