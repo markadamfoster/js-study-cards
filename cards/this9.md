@@ -1,4 +1,4 @@
-What does this code output?
+What does this code output (and why)?
 
 ```js
 const obj = {
@@ -17,3 +17,5 @@ print(); // ?
 ---
 
 `undefined`
+
+This is because the inner, returned function is a free function invocation. Therefore `this` refers to the global object, which does not have a `printVal` property.
